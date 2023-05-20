@@ -1,0 +1,49 @@
+/*body{
+  background-image: url("questionBcg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+body{
+background:  url('questionBcg.jpeg') fixed center/cover no-repeat ;
+}
+
+.container{
+  position: absolute;
+  margin: 0 auto;
+  left: 15%;
+  right: 15%;
+  top: 30%;
+  width: 70%;
+  height: 40%;
+  background-color: red;
+  border: 1px solid white;
+  text-align: center;
+}
+
+img{
+  border-radius: 100%;
+}
+
+.btn1,.btn2{
+  position: absolute;
+}
+
+.btn1{
+  left:0%;
+  top: 50%;
+}
+
+.btn2{
+  right:0%;
+  top: 50%;
+}
+
+.quote{
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 80%;
+  text-align: center;
+}
